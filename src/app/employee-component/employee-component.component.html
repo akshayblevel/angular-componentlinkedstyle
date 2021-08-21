@@ -1,0 +1,14 @@
+<table>
+  <thead>
+    <td>Id</td>
+    <td>Code</td>
+    <td>Name</td>
+    <td>Salary</td>
+  </thead>
+  <tr *ngFor="let employee of employees">
+    <td>{{employee.id}}</td>
+    <td>{{employee.code}}</td>
+    <td>{{employee.name}}</td>
+    <td>{{employee.salary}}</td>
+  </tr>
+</table>
